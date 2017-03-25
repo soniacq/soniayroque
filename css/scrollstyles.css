@@ -1,0 +1,69 @@
+/* animated elements */
+.animateblock {
+    opacity: 0;
+    -webkit-transition: all 0.55s linear;
+    -moz-transition: all 0.55s linear;
+    transition: all 0.55s linear;
+}
+.animateblock.animated {
+    opacity: 1;
+}
+.animateblock.left {
+    margin-left: -2%;
+}
+.animateblock.left.animated {
+    margin-left: 12%;
+}
+.animateblock.right {
+    display: block;
+    margin-left: 100%;
+}
+.animateblock.right.animated {
+    margin-left: 70%;
+}
+.animateblock.top {
+    display: block;
+    margin-top: -25px;
+}
+.animateblock.top.animated {
+    margin-top: 0px;
+}
+.animateblock.btm {
+    display: block;
+    margin-top: 25px;
+}
+.animateblock.btm.animated {
+    margin-top: 0;
+}
+.animateblock.centerleft {
+    display: block;
+    margin-right: -10%;
+}
+.animateblock.centerleft.animated {
+    margin-right: 0;
+}
+.animateblock.centerright {
+    display: block;
+    margin-left: -10%;
+}
+.animateblock.centerright.animated {
+    margin-left: 0;
+}
+.animateblock.center {
+    margin-left: 2%;
+}
+.animateblock.center.animated {
+    margin-left: 42%;
+}
+.animateblock.size {
+    display: block;
+    width: 10%;
+}
+.animateblock.size.animated {
+    width: 100%;
+    height: 100%;
+}
+.animateblock.size img {
+    max-width: 100%;
+    height: auto;
+}
