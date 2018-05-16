@@ -4,4 +4,4 @@ My weeding website. This is the static html version of the free WordPress theme 
 
 ## Documentation
 
-Documentation for installation and usage is available [HERE!](http://domain-discovery-tool.readthedocs.io/en/latest/).
+Documentation for installation and usage is available [HERE!](http://soniayroque.readthedocs.io/en/latest/).
